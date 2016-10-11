@@ -93,7 +93,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_OFF_T_DEFINED;WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);LUA_ANSI;ENABLE_CJSON_GLOBAL</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_OFF_T_DEFINED;WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);LUA_ANSI;ENABLE_CJSON_GLOBAL;accept=Win32_Interop_accept;bind=Win32_Interop_bind;connect=Win32_Interop_connect;freeaddrinfo=Win32_Interop_freeaddrinfo;getaddrinfo=Win32_Interop_getaddrinfo;getsockopt=Win32_Interop_getsockopt;getpeername=Win32_Interop_getpeername;getsockname=Win32_Interop_getsockname;htonl=Win32_Interop_htonl;htons=Win32_Interop_htons;inet_ntop=Win32_Interop_inet_ntop;inet_pton=Win32_Interop_inet_pton;listen=Win32_Interop_listen;ntohl=Win32_Interop_ntohl;ntohs=Win32_Interop_ntohs;select=Win32_Interop_select;setsockopt=Win32_Interop_setsockopt;socket=Win32_Interop_socket</PreprocessorDefinitions>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DisableSpecificWarnings>4244;4018</DisableSpecificWarnings>
@@ -108,7 +108,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_OFF_T_DEFINED;WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);_WIN32_WINNT=0x0501;LUA_ANSI;ENABLE_CJSON_GLOBAL</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_OFF_T_DEFINED;WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);_WIN32_WINNT=0x0501;LUA_ANSI;ENABLE_CJSON_GLOBAL;accept=Win32_Interop_accept;bind=Win32_Interop_bind;connect=Win32_Interop_connect;freeaddrinfo=Win32_Interop_freeaddrinfo;getaddrinfo=Win32_Interop_getaddrinfo;getsockopt=Win32_Interop_getsockopt;getpeername=Win32_Interop_getpeername;getsockname=Win32_Interop_getsockname;htonl=Win32_Interop_htonl;htons=Win32_Interop_htons;inet_ntop=Win32_Interop_inet_ntop;inet_pton=Win32_Interop_inet_pton;listen=Win32_Interop_listen;ntohl=Win32_Interop_ntohl;ntohs=Win32_Interop_ntohs;select=Win32_Interop_select;setsockopt=Win32_Interop_setsockopt;socket=Win32_Interop_socket</PreprocessorDefinitions>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DisableSpecificWarnings>4244;4018</DisableSpecificWarnings>
@@ -122,7 +122,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>_OFF_T_DEFINED;WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);LUA_ANSI;ENABLE_CJSON_GLOBAL</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_OFF_T_DEFINED;WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);LUA_ANSI;ENABLE_CJSON_GLOBAL;accept=Win32_Interop_accept;bind=Win32_Interop_bind;connect=Win32_Interop_connect;freeaddrinfo=Win32_Interop_freeaddrinfo;getaddrinfo=Win32_Interop_getaddrinfo;getsockopt=Win32_Interop_getsockopt;getpeername=Win32_Interop_getpeername;getsockname=Win32_Interop_getsockname;htonl=Win32_Interop_htonl;htons=Win32_Interop_htons;inet_ntop=Win32_Interop_inet_ntop;inet_pton=Win32_Interop_inet_pton;listen=Win32_Interop_listen;ntohl=Win32_Interop_ntohl;ntohs=Win32_Interop_ntohs;select=Win32_Interop_select;setsockopt=Win32_Interop_setsockopt;socket=Win32_Interop_socket</PreprocessorDefinitions>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <DisableSpecificWarnings>4244;4018</DisableSpecificWarnings>
@@ -138,7 +138,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>_OFF_T_DEFINED;WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);_WIN32_WINNT=0x0501;LUA_ANSI;ENABLE_CJSON_GLOBAL</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_OFF_T_DEFINED;WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions);_WIN32_WINNT=0x0501;LUA_ANSI;ENABLE_CJSON_GLOBAL;accept=Win32_Interop_accept;bind=Win32_Interop_bind;connect=Win32_Interop_connect;freeaddrinfo=Win32_Interop_freeaddrinfo;getaddrinfo=Win32_Interop_getaddrinfo;getsockopt=Win32_Interop_getsockopt;getpeername=Win32_Interop_getpeername;getsockname=Win32_Interop_getsockname;htonl=Win32_Interop_htonl;htons=Win32_Interop_htons;inet_ntop=Win32_Interop_inet_ntop;inet_pton=Win32_Interop_inet_pton;listen=Win32_Interop_listen;ntohl=Win32_Interop_ntohl;ntohs=Win32_Interop_ntohs;select=Win32_Interop_select;setsockopt=Win32_Interop_setsockopt;socket=Win32_Interop_socket</PreprocessorDefinitions>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <DisableSpecificWarnings>4244;4018</DisableSpecificWarnings>

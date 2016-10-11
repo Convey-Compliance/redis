@@ -92,7 +92,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PreprocessorDefinitions>USE_JEMALLOC;_OFF_T_DEFINED;WIN32;LACKS_STDLIB_H;_DEBUG;_CONSOLE;__x86_64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>USE_JEMALLOC;_OFF_T_DEFINED;WIN32;LACKS_STDLIB_H;_DEBUG;_CONSOLE;__x86_64__;%(PreprocessorDefinitions);accept=Win32_Interop_accept;bind=Win32_Interop_bind;connect=Win32_Interop_connect;freeaddrinfo=Win32_Interop_freeaddrinfo;getaddrinfo=Win32_Interop_getaddrinfo;getsockopt=Win32_Interop_getsockopt;getpeername=Win32_Interop_getpeername;getsockname=Win32_Interop_getsockname;htonl=Win32_Interop_htonl;htons=Win32_Interop_htons;inet_ntop=Win32_Interop_inet_ntop;inet_pton=Win32_Interop_inet_pton;listen=Win32_Interop_listen;ntohl=Win32_Interop_ntohl;ntohs=Win32_Interop_ntohs;select=Win32_Interop_select;setsockopt=Win32_Interop_setsockopt;socket=Win32_Interop_socket</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)..\deps\lua\src;$(SolutionDir)..\deps\geohash-int;$(SolutionDir)..\deps\hiredis;$(SolutionDir)..\deps\jemalloc-win\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
@@ -113,7 +113,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PreprocessorDefinitions>USE_JEMALLOC;_OFF_T_DEFINED;WIN32;LACKS_STDLIB_H;_DEBUG;_CONSOLE;__x86_64__;%(PreprocessorDefinitions);_WIN32_WINNT=0x0501</PreprocessorDefinitions>
+      <PreprocessorDefinitions>USE_JEMALLOC;_OFF_T_DEFINED;WIN32;LACKS_STDLIB_H;_DEBUG;_CONSOLE;__x86_64__;%(PreprocessorDefinitions);_WIN32_WINNT=0x0501;accept=Win32_Interop_accept;bind=Win32_Interop_bind;connect=Win32_Interop_connect;freeaddrinfo=Win32_Interop_freeaddrinfo;getaddrinfo=Win32_Interop_getaddrinfo;getsockopt=Win32_Interop_getsockopt;getpeername=Win32_Interop_getpeername;getsockname=Win32_Interop_getsockname;htonl=Win32_Interop_htonl;htons=Win32_Interop_htons;inet_ntop=Win32_Interop_inet_ntop;inet_pton=Win32_Interop_inet_pton;listen=Win32_Interop_listen;ntohl=Win32_Interop_ntohl;ntohs=Win32_Interop_ntohs;select=Win32_Interop_select;setsockopt=Win32_Interop_setsockopt;socket=Win32_Interop_socket</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)..\deps\lua\src;$(SolutionDir)..\deps\geohash-int;$(SolutionDir)..\deps\hiredis;$(SolutionDir)..\deps\jemalloc-win\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
@@ -134,7 +134,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <PreprocessorDefinitions>USE_JEMALLOC;_OFF_T_DEFINED;WIN32;LACKS_STDLIB_H;NDEBUG;_CONSOLE;__x86_64__;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>USE_JEMALLOC;_OFF_T_DEFINED;WIN32;LACKS_STDLIB_H;NDEBUG;_CONSOLE;__x86_64__;%(PreprocessorDefinitions);accept=Win32_Interop_accept;bind=Win32_Interop_bind;connect=Win32_Interop_connect;freeaddrinfo=Win32_Interop_freeaddrinfo;getaddrinfo=Win32_Interop_getaddrinfo;getsockopt=Win32_Interop_getsockopt;getpeername=Win32_Interop_getpeername;getsockname=Win32_Interop_getsockname;htonl=Win32_Interop_htonl;htons=Win32_Interop_htons;inet_ntop=Win32_Interop_inet_ntop;inet_pton=Win32_Interop_inet_pton;listen=Win32_Interop_listen;ntohl=Win32_Interop_ntohl;ntohs=Win32_Interop_ntohs;select=Win32_Interop_select;setsockopt=Win32_Interop_setsockopt;socket=Win32_Interop_socket</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)..\deps\lua\src;$(SolutionDir)..\deps\geohash-int;$(SolutionDir)..\deps\hiredis;$(SolutionDir)..\deps\jemalloc-win\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
@@ -166,7 +166,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <PreprocessorDefinitions>USE_JEMALLOC;_OFF_T_DEFINED;_WIN32;LACKS_STDLIB_H;NDEBUG;_CONSOLE;__x86_64__;%(PreprocessorDefinitions);_WIN32_WINNT=0x0501</PreprocessorDefinitions>
+      <PreprocessorDefinitions>USE_JEMALLOC;_OFF_T_DEFINED;_WIN32;LACKS_STDLIB_H;NDEBUG;_CONSOLE;__x86_64__;%(PreprocessorDefinitions);_WIN32_WINNT=0x0501;accept=Win32_Interop_accept;bind=Win32_Interop_bind;connect=Win32_Interop_connect;freeaddrinfo=Win32_Interop_freeaddrinfo;getaddrinfo=Win32_Interop_getaddrinfo;getsockopt=Win32_Interop_getsockopt;getpeername=Win32_Interop_getpeername;getsockname=Win32_Interop_getsockname;htonl=Win32_Interop_htonl;htons=Win32_Interop_htons;inet_ntop=Win32_Interop_inet_ntop;inet_pton=Win32_Interop_inet_pton;listen=Win32_Interop_listen;ntohl=Win32_Interop_ntohl;ntohs=Win32_Interop_ntohs;select=Win32_Interop_select;setsockopt=Win32_Interop_setsockopt;socket=Win32_Interop_socket</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>$(SolutionDir)..\deps\lua\src;$(SolutionDir)..\deps\geohash-int;$(SolutionDir)..\deps\hiredis;$(SolutionDir)..\deps\jemalloc-win\include</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>

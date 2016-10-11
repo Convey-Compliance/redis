@@ -87,7 +87,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_OFF_T_DEFINED;WIN32;_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_OFF_T_DEFINED;WIN32;_LIB;_DEBUG;%(PreprocessorDefinitions);accept=Win32_Interop_accept;bind=Win32_Interop_bind;connect=Win32_Interop_connect;freeaddrinfo=Win32_Interop_freeaddrinfo;getaddrinfo=Win32_Interop_getaddrinfo;getsockopt=Win32_Interop_getsockopt;getpeername=Win32_Interop_getpeername;getsockname=Win32_Interop_getsockname;htonl=Win32_Interop_htonl;htons=Win32_Interop_htons;inet_ntop=Win32_Interop_inet_ntop;inet_pton=Win32_Interop_inet_pton;listen=Win32_Interop_listen;ntohl=Win32_Interop_ntohl;ntohs=Win32_Interop_ntohs;select=Win32_Interop_select;setsockopt=Win32_Interop_setsockopt;socket=Win32_Interop_socket</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
@@ -101,7 +101,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_OFF_T_DEFINED;WIN32;_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_OFF_T_DEFINED;WIN32;_LIB;_DEBUG;%(PreprocessorDefinitions);accept=Win32_Interop_accept;bind=Win32_Interop_bind;connect=Win32_Interop_connect;freeaddrinfo=Win32_Interop_freeaddrinfo;getaddrinfo=Win32_Interop_getaddrinfo;getsockopt=Win32_Interop_getsockopt;getpeername=Win32_Interop_getpeername;getsockname=Win32_Interop_getsockname;htonl=Win32_Interop_htonl;htons=Win32_Interop_htons;inet_ntop=Win32_Interop_inet_ntop;inet_pton=Win32_Interop_inet_pton;listen=Win32_Interop_listen;ntohl=Win32_Interop_ntohl;ntohs=Win32_Interop_ntohs;select=Win32_Interop_select;setsockopt=Win32_Interop_setsockopt;socket=Win32_Interop_socket</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <DisableSpecificWarnings>4996</DisableSpecificWarnings>
     </ClCompile>
@@ -117,7 +117,7 @@
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>_OFF_T_DEFINED;WIN32;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_OFF_T_DEFINED;WIN32;_LIB;%(PreprocessorDefinitions);accept=Win32_Interop_accept;bind=Win32_Interop_bind;connect=Win32_Interop_connect;freeaddrinfo=Win32_Interop_freeaddrinfo;getaddrinfo=Win32_Interop_getaddrinfo;getsockopt=Win32_Interop_getsockopt;getpeername=Win32_Interop_getpeername;getsockname=Win32_Interop_getsockname;htonl=Win32_Interop_htonl;htons=Win32_Interop_htons;inet_ntop=Win32_Interop_inet_ntop;inet_pton=Win32_Interop_inet_pton;listen=Win32_Interop_listen;ntohl=Win32_Interop_ntohl;ntohs=Win32_Interop_ntohs;select=Win32_Interop_select;setsockopt=Win32_Interop_setsockopt;socket=Win32_Interop_socket</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <DisableSpecificWarnings>4996</DisableSpecificWarnings>
       <WholeProgramOptimization>true</WholeProgramOptimization>
@@ -136,7 +136,7 @@
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>_OFF_T_DEFINED;WIN32;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_OFF_T_DEFINED;WIN32;_LIB;%(PreprocessorDefinitions);accept=Win32_Interop_accept;bind=Win32_Interop_bind;connect=Win32_Interop_connect;freeaddrinfo=Win32_Interop_freeaddrinfo;getaddrinfo=Win32_Interop_getaddrinfo;getsockopt=Win32_Interop_getsockopt;getpeername=Win32_Interop_getpeername;getsockname=Win32_Interop_getsockname;htonl=Win32_Interop_htonl;htons=Win32_Interop_htons;inet_ntop=Win32_Interop_inet_ntop;inet_pton=Win32_Interop_inet_pton;listen=Win32_Interop_listen;ntohl=Win32_Interop_ntohl;ntohs=Win32_Interop_ntohs;select=Win32_Interop_select;setsockopt=Win32_Interop_setsockopt;socket=Win32_Interop_socket</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <DisableSpecificWarnings>4996</DisableSpecificWarnings>
       <WholeProgramOptimization>true</WholeProgramOptimization>
