@@ -36,7 +36,7 @@
 #ifndef _WIN32
 #include <sys/time.h> /* for struct timeval */
 #else
-#include "../../src/Win32_Interop/win32_types_hiredis.h"
+typedef __int64 PORT_LONGLONG;
 #endif
 
 #define HIREDIS_MAJOR 0
