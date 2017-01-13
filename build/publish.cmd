@@ -17,6 +17,8 @@ set target_dir=\\conveydev.com\files\dev\sdlc-ci\development\user\hiredis
 
 robocopy ..\bin\%platform_%\%config%\ %target_dir%\%platform_%\%config%\lib %copy_files% %copy_opts%
 IF ERRORLEVEL 4 exit /B 1
+robocopy ..\src\Win32_Interop\%platform_%\%config%\ %target_dir%\%platform_%\%config%\lib vc120.pdb %copy_opts%
+IF ERRORLEVEL 4 exit /B 1
 robocopy ..\deps\hiredis %target_dir% hiredis.h %copy_opts%
 IF ERRORLEVEL 4 exit /B 1
 
